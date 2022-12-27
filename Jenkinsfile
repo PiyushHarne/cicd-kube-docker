@@ -2,11 +2,11 @@ pipeline {
 
     agent any
 
-	tools {
+/*	tools {
         maven "maven"
         jdk "OrackeJDK8"
     }
-
+*/
     environment {
         registry = "imranvisualpath/vproappdock"
         registryCredential = 'dockerhub'
